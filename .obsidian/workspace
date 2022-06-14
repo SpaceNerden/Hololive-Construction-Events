@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c0324b6c1b791df7",
+        "id": "a23d6642859c1424",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "Kanban.md"
+          }
         }
       }
     ],
@@ -44,6 +46,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "12acf642323fc5eb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -65,6 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +101,18 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "a5bcb149474718bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kanban.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -98,6 +121,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c0324b6c1b791df7",
-  "lastOpenFiles": []
+  "active": "a23d6642859c1424",
+  "lastOpenFiles": [
+    "Kanban.md",
+    "Dashboard.md",
+    "Events/Unnamed Siege Event/Main Idea.md",
+    "Excalidraw/Drawing 2022-06-14 14.56.33.excalidraw.md"
+  ]
 }
