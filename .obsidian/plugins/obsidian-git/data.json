@@ -1,0 +1,21 @@
+{
+  "commitMessage": "",
+  "autoCommitMessage": "Automatic Vault Backup: {{date}}. {{numFiles}} files changed.",
+  "commitDateFormat": "YYYY-MM-DD  HH:mm A",
+  "autoSaveInterval": 0,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": false,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "disablePopups": false,
+  "listChangedFilesInMessageBody": true,
+  "showStatusBar": true,
+  "updateSubmodules": false,
+  "syncMethod": "rebase",
+  "gitPath": "",
+  "customMessageOnAutoBackup": false,
+  "autoBackupAfterFileChange": false,
+  "treeStructure": false,
+  "refreshSourceControl": true,
+  "basePath": ""
+}

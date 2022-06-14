@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c00bdd002e0a0bd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0324b6c1b791df7",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2068d1b7c17a2c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaed15b1c4d2e5ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc2509250b22cd3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9fafa2afc85c400",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "91af0c5c059c746e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a026615c42490b64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a68f8438af7a1e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "95a3108578be79c4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b453642d77beb96f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "c0324b6c1b791df7",
+  "lastOpenFiles": []
+}
