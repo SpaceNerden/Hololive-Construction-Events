@@ -52,23 +52,23 @@ To keep the game interesting, a random player will be given special versions of 
 A team must be roughly equal in size, adjusting accordingly. (E.g., If there is a PvP warlord in 1 team, that team gets less players).
 
 ## Arena
-For now, I'll be copying parts of cities/towns and modifying it a little. Later on, I plan to make (or look for) dedicated maps for these kinds of events.
+For now, I'll be picking a random spot on the res server. I'll make a proper map soon :tm:.
+The flag will be placed in a place where there are natural bottlenecks. (E.g A Peninsula, a long island, etc) Every location must be Staff/Event Team approved so that players don't go in caves looking for it. It must clearly be in a man-made structure, and a player must be able to walk (not crawl) to the flag without difficulties.
 
-The flags will be placed in 3 places. Every location must be Staff/Event Team approved so that players don't go in caves looking for it. It must clearly be in a man-made structure, and a player must be able to walk (not crawl) to the flag without difficulties.
-
-1 flag will be selected as a "Home fort". Travel between the home fort and the outposts are up to the team. 
-
-Players are given 30 minutes to prepare all defenses. The defences may include landmines, walls, chokepoints, TNT cannons, lava walls. There will be a reasonable limit to the placing limits. During this time, all players can help fortify the forts.
+Players are given 15-30 minutes to prepare all defenses. The defences may include landmines, walls, chokepoints, TNT cannons, lava walls. There will be a reasonable limit to the placing limits. During this time, all players can help build.
 ## Game Rules
 1. No items must go out, or in. All players are expected to stash their belongings in a chest before joining.
 2. Players cannot drop items. (Command block based method is nice, but I'd rather make a dedicated plugin for all my events. Not sure why, but it seems easier.)
 3. Unlimited respawns until all flags are down, spawn on the home fort.
 
 
+## Technical Stuff
+Plugin used: PvP Arena
+	Mode: PhysicalFlag
+
 ## Todo
-- [ ]  Check if custom plugins are allowed 
-	- [ ] Make plugin
-		- [ ] Make items
-		- [ ] Kit/Role selection
-		- [ ] Game arena logic
 - [ ] Refine game rules 
+- [ ] Define commands to run event
+
+## Maybe?
+- Make custom plugin for ultimate flexibility

@@ -7,9 +7,11 @@
         "id": "a23d6642859c1424",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "Kanban.md"
+            "file": "Events/Unnamed Siege Event/Main Idea.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban.md",
+                "file": "Events/Unnamed Siege Event/Main Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban.md",
+                "file": "Events/Unnamed Siege Event/Main Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +125,9 @@
   },
   "active": "a23d6642859c1424",
   "lastOpenFiles": [
+    "Events/Unnamed Siege Event/Main Idea.md",
     "Kanban.md",
     "Dashboard.md",
-    "Events/Unnamed Siege Event/Main Idea.md",
     "Excalidraw/Drawing 2022-06-14 14.56.33.excalidraw.md"
   ]
 }
