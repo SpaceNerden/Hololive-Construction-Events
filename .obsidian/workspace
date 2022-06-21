@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "27d22135c37a6ceb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Commands.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -126,6 +138,7 @@
   "active": "a23d6642859c1424",
   "lastOpenFiles": [
     "Events/Unnamed Siege Event/Main Idea.md",
+    "Commands.md",
     "Kanban.md",
     "Dashboard.md",
     "Excalidraw/Drawing 2022-06-14 14.56.33.excalidraw.md"

@@ -63,12 +63,51 @@ Players are given 15-30 minutes to prepare all defenses. The defences may includ
 
 
 ## Technical Stuff
-Plugin used: PvP Arena
+Plugin used: PvP Arena, CMI, WorldGuard, LuckPerms
 	Mode: PhysicalFlag
+## Procedures
+1. Scout/paste suitable arena
+2. Define regions and permissions
+	1. Make regions
+		1. `/region define arena`
+		2. `/region define blueBase`
+		3. `/region define redBase`
+	2. Configure regions
+		1. `/region flag arena exit -g members deny`
+		2.  `/region flag arena exit-via-teleport -g members deny`
+		3. `/region flag arena entry -g members deny`
+		4. `/region flag arena other-explosion deny`
+		5. `/region flag blueBase exit -g members deny`
+		6. `/region flag redBase exit -g members deny`
+3. Configure PvP Arena 
+	1. Create arena and configure goals
+		1. `/pa create siegeArena`
+		2. `/pa siegeArena goal TeamLives`
+		3. `/pa siegeArena goal PhysicalFlags`
+		4. `/pa reload`
+		5. `/pa siegeArena set flagType WHITE_BANNER`
+		6. `/pa siegeArena set effect GLOWING`
+	2. Set spawn points
+		1. `/pa siegeArena spawn blueSpawn`
+		2. `/pa siegeArena spawn redSpawn`
+		3. `/pa siegeArena spawn spectator`
+		4. `/pa siegeArena spawn exit`
+5. Send announcement
+6. Make permission groups for 2 teams 
+	2. `lp creategroup blueTeam`
+	3. `lp creategroup redTeam`
+7. Add players to each permission group
+	1. `lp user [player] parent add blueTeam`
+	2. `lp user [player] parent add redTeam`
+8. Add permission groups to WG regions
+	1. `/region addmember -w redBase g:redTeam`
+	2. `/region addmember -w blueBase g:blueTeam`
+9. Register players to arena
+	1. `/pa siegeArena playerjoin [player] (team)`
+10. Start event
+	1. `/pa siegeArena start`
 
-## Todo
-- [ ] Refine game rules 
-- [ ] Define commands to run event
-
+## TODO:
+- [ ] Revoke `pvparena.user` for players 
 ## Maybe?
 - Make custom plugin for ultimate flexibility
