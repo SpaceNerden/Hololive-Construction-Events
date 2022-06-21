@@ -92,6 +92,8 @@ Plugin used: PvP Arena, CMI, WorldGuard, LuckPerms
 		2. `/pa siegeArena spawn redSpawn`
 		3. `/pa siegeArena spawn spectator`
 		4. `/pa siegeArena spawn exit`
+4. Make kits 
+	1. `/cmi kiteditor new [kitname]`
 5. Send announcement
 6. Make permission groups for 2 teams 
 	2. `lp creategroup blueTeam`
@@ -102,10 +104,23 @@ Plugin used: PvP Arena, CMI, WorldGuard, LuckPerms
 8. Add permission groups to WG regions
 	1. `/region addmember -w redBase g:redTeam`
 	2. `/region addmember -w blueBase g:blueTeam`
-9. Register players to arena
-	1. `/pa siegeArena playerjoin [player] (team)`
+9. Register players to arena and give kits
+	1. `/pa siegeArena playerjoin [player] [team]`
+	2. `/cmi kit [kitName] [player] 
 10. Start event
 	1. `/pa siegeArena start`
+11. Cleanup
+	1. Clear all inventories
+	2. Delete WG regions
+		1. `/region remove redBase`
+		2. `/region remove blueBase`
+		3. `/region remove arena`
+	4. Delete PvP Arena arenas
+		1. `/pa siegeArena delete`
+		2. `/pa siegeArena delete` (Confirmation)
+	5. Delete permission groups
+		1. `/lp deletegroup redTeam`
+		2. `/lp deletegroup blueTeam`
 
 ## TODO:
 - [ ] Revoke `pvparena.user` for players 
