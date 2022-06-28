@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Events/Unnamed Siege Event/Main Idea.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "27d22135c37a6ceb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Commands.md",
+            "file": "Events/Hide, Collect, Kill/Main Idea.md",
             "mode": "source",
             "source": false
           }
@@ -73,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 249
   },
   "right": {
     "id": "91af0c5c059c746e",
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Events/Unnamed Siege Event/Main Idea.md",
+                "file": "Events/Hide, Collect, Kill/Main Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Events/Unnamed Siege Event/Main Idea.md",
+                "file": "Events/Hide, Collect, Kill/Main Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,6 +125,7 @@
   },
   "active": "a23d6642859c1424",
   "lastOpenFiles": [
+    "Events/Hide, Collect, Kill/Main Idea.md",
     "Events/Unnamed Siege Event/Main Idea.md",
     "Kanban.md",
     "Commands.md",
